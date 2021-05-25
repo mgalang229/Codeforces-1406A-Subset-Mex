@@ -14,7 +14,7 @@ int main() {
 		for (int i = 0; i < n; i++) {
 			int x;
 			cin >> x;
-			// count the number of frequence of every number
+			// count the number of frequency of every number
 			a[x]++;
 		}
 		// initialize 'b' and 'c' to -1 (before the starting index)
