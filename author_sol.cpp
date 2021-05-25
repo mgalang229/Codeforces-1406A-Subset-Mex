@@ -23,7 +23,7 @@ int main() {
 		// basically, we need to create two subsets A and B which both contains
 		// unique elements in order to produce the maximum MEX possible
 		// start a loop until it encounters a value of 0, since that will be our
-		// maximum MEX for this set (for set A)
+		// MEX for this set (for set A)
 		for (int i = 0; i <= 101; i++) {
 			if (a[i] > 0) {
 				// if it encounters a number greater than 0, then reduce its frequency
@@ -37,7 +37,7 @@ int main() {
 			}
 		}
 		// start a loop until it encounters a value of 0, since that will be our
-		// maximum MEX for this set (for set B)
+		// MEX for this set (for set B)
 		for (int i = 0; i <= 101; i++) {
 			if (a[i] > 0) {
 				// if it encounters a number greater than 0, then reduce its frequency
