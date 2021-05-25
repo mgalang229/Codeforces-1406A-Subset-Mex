@@ -49,7 +49,7 @@ int main() {
 				break;
 			}
 		}
-		// calculate the sum of the maximum MEX of set A and set B
+		// calculate the sum of the MEX of set A and set B
 		cout << b + c << '\n';
 	}
 	return 0;
