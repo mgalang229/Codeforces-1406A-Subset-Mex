@@ -44,6 +44,7 @@ int main() {
 				// (it's like we're inserting the numbers in set B)
 				a[i]--;
 			} else {
+				// if it encounters 0, then that index (number) will be our MEX in this set
 				c = i;
 				// break the loop
 				break;
